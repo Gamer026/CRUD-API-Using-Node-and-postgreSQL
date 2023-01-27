@@ -1,0 +1,26 @@
+{
+  "name": "food-develiry-app",
+  "version": "1.0.0",
+  "description": "API config for the food deliveryApp",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "author": "Mathan",
+  "license": "ISC",
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.199.0",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-validator": "^6.14.2",
+    "jsonwebtoken": "^8.5.1",
+    "multer": "^1.4.5-lts.1",
+    "nodemailer": "^6.8.0",
+    "pg": "^8.8.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
